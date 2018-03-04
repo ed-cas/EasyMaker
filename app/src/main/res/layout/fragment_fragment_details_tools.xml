@@ -1,0 +1,131 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/des_tool_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easymaker.easymaker.fragments.fragment_details_tools"
+    android:background="#FFFFFF"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scroll_details_tool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:id="@+id/linear_layout_scrollo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                >
+            </android.support.v4.view.ViewPager>
+
+            <TextView
+                android:id="@+id/article_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="CNC fresadora Madera"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/text_desciption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="14sp"
+                android:textColor="#111111"
+                android:textAlignment="center"
+                android:text="Esta es una descipcion del articulo ofertado  esta es una descipcion del articulo ofertado  esta es una descipcion del articulo ofertado Esta es una descipcion del articulo ofertado  esta es una descipcion del articulo ofertado  esta es una descipcion del articulo ofertado "
+                />
+
+            <Button
+                android:id="@+id/btn_contact"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:text="Preguntar Disponibilidad" />
+
+            <LinearLayout
+                android:id="@+id/Linear_info_propietary"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/com_facebook_profile_picture_blank_square"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/name_propietary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Perfil de prpietario nombre"
+                        android:paddingLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        />
+
+                    <TextView
+                        android:id="@+id/date_publication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="hace 1 dia"
+                        android:paddingLeft="50dp"
+                        android:textSize="14sp"
+                        android:textColor="#111111"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

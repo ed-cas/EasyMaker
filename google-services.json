@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "873560790549",
+    "firebase_url": "https://easymaker-4da24.firebaseio.com",
+    "project_id": "easymaker-4da24",
+    "storage_bucket": "easymaker-4da24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873560790549:android:1760e803933bd497",
+        "android_client_info": {
+          "package_name": "com.easymaker.easymaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873560790549-gqjn9aavi0q6vsii8o7ae9eo8fuoh050.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzgBP00LJNQZwNS9yNRV-6yidn56Q-Ylw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

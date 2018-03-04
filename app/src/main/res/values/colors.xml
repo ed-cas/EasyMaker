@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b1fa2</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f2a60c</color>
+    <color name="colorEasy">#651fff</color>
+
+    <color name="fb">#3b5998</color>
+    <color name="twiter">#00aced</color>
+    <color name="watts">#25d366</color>
+    <color name="email">#c71610</color>
+    <color name="msg">#f2a60c</color>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EasyMaker</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="Log_in">Entrar</string>
+    <string name="forgot_pw">Olvidé la Contraseña</string>
+
+    <string name="facebook_app_id">2242418559131981</string>
+    <string name="fb_login_protocol_scheme">fb2242418559131981</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_prueba_maps">Map</string>
+    <string name="title_activity_prueba_map">Map</string>
+    <string name="title_activity_description_item">Map</string>
+
+</resources>
